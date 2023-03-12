@@ -20,6 +20,10 @@ public class Purchase {
     @Enumerated(EnumType.STRING)
     private PurchaseState state;
 
+    public Long getId() {
+        return this.id;
+    }
+
     public String getTitle() {
         return this.title;
     }

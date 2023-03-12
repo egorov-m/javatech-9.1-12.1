@@ -9,6 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/${purchase-controller.version}")
+@CrossOrigin
 public class PurchaseController {
     @Autowired
     PurchaseService purchaseService;
